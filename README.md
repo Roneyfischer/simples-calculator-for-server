@@ -1,4 +1,4 @@
-<h2>Informações gerais:</h2>
+<center><h2>Informações gerais:</h2></center>
 <Br>
 <h3>Intro:</h3>
 <Br>
@@ -23,7 +23,7 @@ Em razão da imutabilidade, é aplicado ao código o uso de cópias, para não a
 <Br>
 <Br>
 
-<h2>Como rodar/executar:</h2>
+<center><h2>Como rodar/executar:</h2></center>
 <Br>
 
 1. Rode "npm install";
