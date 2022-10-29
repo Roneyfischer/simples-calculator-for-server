@@ -32,3 +32,8 @@ Em razão da imutabilidade, é aplicado ao código o uso de cópias, para não a
    <Br>
 3. Execute no console: "npm run dev" OU "npm run prod";
    <Br>
+
+<style>
+h2 {text-align: center;}
+p {text-align: justify;}
+</style>
