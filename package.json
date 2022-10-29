@@ -1,0 +1,22 @@
+{
+  "name": "simples-calculator",
+  "version": "1.0.0",
+  "description": "Simple calculator beck-end for server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "simple-calculator"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Rôney Fischer Soares da Silva",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
