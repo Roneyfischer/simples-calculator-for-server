@@ -18,13 +18,13 @@ os dados devem ser passados no Body da requisição POST, no seguinte modelo:
 } <Br>
 </div>
 <Br>
-As operações são as seguintes:
+As operações são as seguintes:<Br><Br>
 <b>+:</b> Adição/Soma<Br>
 <b>-:</b> Subtração<Br>
 <b>*:</b> Mutiplicação<Br>
 <b>/:</b> Divisão<Br>
 <b>^:</b> Potencia<Br>
-<Br>
+<Br><Br>
 <h3>Pressupostos e detalhes técnicos:</h3>
 <Br>
 1.O projeto foi criado para eu aprimorar meus conhecimentos.
