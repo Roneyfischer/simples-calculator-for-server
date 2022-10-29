@@ -1,11 +1,15 @@
-informação geral:
+**informação geral:**
+<Br>
 Trata-se da uma calculadora simples, construída em Javascript, para rodar em nodejs)
-
-Pressupostos e detalhes técnicos:
+<Br>
+Pressupostos e detalhes técnicos:<Br>
 1.O projeto foi criado para eu aprimorar meus conhecimentos.
-2. Procurei usar dois paradigmas distintos: orientação a objetos e programação funcional. Embora sem diferente, eu queria utilizar asses, então acabei misturando estes paradigmas. 
+<Br>
+2. Procurei usar dois paradigmas distintos: orientação a objetos e programação funcional. 
+Embora sem diferente, eu queria utilizar asses, então acabei misturando estes paradigmas. 
 Assim, misturei os conceitos.
-Apliquei a imutabilidade, composição 
+O projeta busca aplicar a imutabilidade, composição e pureza das funções, na medida do possível.
+
 
 
 Para rodar/executar, use:
