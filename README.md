@@ -1,5 +1,7 @@
 <center><h2>Informações gerais:</h2></center>
 <Br>
+    
+    
 <h3>Intro:</h3>
 <Br>
 <Br>
@@ -8,23 +10,6 @@ Trata-se da uma calculadora simples, construída em Javascript, para rodar em no
 Não possui front-end, podendo ser utilizado vuia postman ou semelhante
 <Br>
 <Br>
-os dados devem ser passados no Body da requisição POST, no seguinte modelo:
-<Br>
-<div>
-{<Br>
-    "numb1":25, <Br>
-    "numb2":40, <Br>
-    "type":"*" <Br>
-} <Br>
-</div>
-<Br>
-As operações são as seguintes:<Br><Br>
-<b>+:</b> Adição/Soma<Br>
-<b>-:</b> Subtração<Br>
-<b>*:</b> Mutiplicação<Br>
-<b>/:</b> Divisão<Br>
-<b>^:</b> Potencia<Br>
-<Br><Br>
 <h3>Pressupostos e detalhes técnicos:</h3>
 <Br>
 1.O projeto foi criado para eu aprimorar meus conhecimentos.
@@ -39,8 +24,11 @@ Em razão da imutabilidade, é aplicado ao código o uso de cópias, para não a
 <Br>
 <Br>
 <Br>
+<i><b>ESTOU ABERTO À SUGESTÕES E COMENTÁRIOS.</b></i>
+    
 
-<center><h2>Como rodar/executar:</h2></center>
+    
+<h2>Como rodar/executar:</h2>
 <Br>
 
 1. Rode "npm install";
@@ -50,7 +38,26 @@ Em razão da imutabilidade, é aplicado ao código o uso de cópias, para não a
 3. Execute no console: "npm run dev" OU "npm run prod";
    <Br>
 
-<style>
-h2 {text-align: center;}
-p {text-align: justify;}
-</style>
+
+       
+       
+       
+       <h2>Como utilizar:</h2><Br>
+Os dados devem ser passados no Body da requisição POST, no seguinte modelo:
+<Br>
+    <Br>
+<div>
+{<Br>
+    "numb1":25, <Br>
+    "numb2":40, <Br>
+    "type":"*" <Br>
+} <Br>
+</div>
+<Br>
+As operações devem ser enviadas no campo _"type"_ da requisição, e são as seguintes:<Br>
+<b>+ :</b> Adição/Soma<Br>
+<b>- :</b> Subtração<Br>
+<b>* :</b> Mutiplicação<Br>
+<b>/ :</b> Divisão<Br>
+<b>^ :</b> Potencia<Br>
+<Br>
