@@ -1,9 +1,10 @@
 function adicao(numb1, numb2) {
+  console.log("ESTAMOS EM ADIÇÃO"); //for test
   var result = numb1 + numb2;
   return result;
 }
 
-function substracao(numb1, numb2) {
+function subtracao(numb1, numb2) {
   var result = numb1 - numb2;
   return result;
 }
@@ -25,7 +26,7 @@ function potencia(numb1, numb2) {
 
 export default {
   adicao,
-  substracao,
+  subtracao,
   mutiplicacao,
   divisao,
   potencia,
