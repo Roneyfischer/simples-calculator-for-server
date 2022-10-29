@@ -5,9 +5,26 @@
 <Br>
 Trata-se da uma calculadora simples, construída em Javascript, para rodar em nodejs)
 <Br>
+Não possui front-end, podendo ser utilizado vuia postman ou semelhante
 <Br>
 <Br>
-
+os dados devem ser passados no Body da requisição POST, no seguinte modelo:
+<Br>
+<div>
+{<Br>
+    "numb1":25,
+    "numb2":40,
+    "type":"*"
+}
+</div>
+<Br>
+As operações são as seguintes:
++:<Br>
+-:<Br>
+*:<Br>
+/:<Br>
+^:<Br>
+<Br>
 <h3>Pressupostos e detalhes técnicos:</h3>
 <Br>
 1.O projeto foi criado para eu aprimorar meus conhecimentos.
