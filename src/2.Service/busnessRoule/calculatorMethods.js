@@ -1,5 +1,4 @@
 function adicao(numb1, numb2) {
-  console.log("ESTAMOS EM ADIÇÃO"); //for test
   var result = numb1 + numb2;
   return result;
 }

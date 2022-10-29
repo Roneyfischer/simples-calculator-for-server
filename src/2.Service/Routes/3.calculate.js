@@ -6,11 +6,9 @@ import operatorsFilter from "../../3.Controller/operators/operatorsFilter.js";
 const calculate = express.Router();
 
 calculate.post("/", async (req, res) => {
-  teste();
-  function teste() {
+  callCalculater();
+  function callCalculater() {
     res.status(200).json({ result: `${operatorsFilter(req.body)}` });
-
-    //console.log("in /calculate: ok"); //for test
   }
 });
 
