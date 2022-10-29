@@ -17,8 +17,11 @@ function operatorsFilter(reqBody) {
   if (reqBody.type == "*") {
     return (calculator.result = calculator.mutiplicacao(numb1, numb2));
   }
-  if (reqBody.type == "^") {
+  if (reqBody.type == "**") {
     return (calculator.result = calculator.potencia(numb1, numb2));
+  }
+  if (reqBody.type == "%") {
+    return (calculator.result = calculator.modulo(numb1, numb2));
   }
 }
 

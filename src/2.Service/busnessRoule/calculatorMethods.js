@@ -20,7 +20,11 @@ function divisao(numb1, numb2) {
 }
 
 function potencia(numb1, numb2) {
-  var result = Math.pow(numb1, numb2);
+  var result = numb1 ** numb2;
+  return result;
+}
+function modulo(numb1, numb2) {
+  var result = numb1 % numb2;
   return result;
 }
 
@@ -30,4 +34,5 @@ export default {
   mutiplicacao,
   divisao,
   potencia,
+  modulo,
 };

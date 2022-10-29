@@ -25,39 +25,36 @@ Em razão da imutabilidade, é aplicado ao código o uso de cópias, para não a
 <Br>
 <Br>
 <i><b>ESTOU ABERTO À SUGESTÕES E COMENTÁRIOS.</b></i>
-    
 
-    
+
 <h2>Como rodar/executar:</h2>
 <Br>
 
-1. Rode "npm install";
-   <Br>
-2. Execute o ".env.exemple", removendo ".exemple", para ficar ".env";
-   <Br>
-3. Execute no console: "npm run dev" OU "npm run prod";
-   <Br>
-
-
-       
-       
-       
-       <h2>Como utilizar:</h2><Br>
-Os dados devem ser passados no Body da requisição POST, no seguinte modelo:
-<Br>
+1.  Rode "npm install";
     <Br>
-<div>
-{<Br>
-    "numb1":25, <Br>
-    "numb2":40, <Br>
-    "type":"*" <Br>
-} <Br>
-</div>
-<Br>
-As operações devem ser enviadas no campo _"type"_ da requisição, e são as seguintes:<Br>
-<b>+ :</b> Adição/Soma<Br>
-<b>- :</b> Subtração<Br>
-<b>* :</b> Mutiplicação<Br>
-<b>/ :</b> Divisão<Br>
-<b>^ :</b> Potencia<Br>
-<Br>
+2.  Execute o ".env.exemple", removendo ".exemple", para ficar ".env";
+    <Br>
+3.  Execute no console: "npm run dev" OU "npm run prod";
+    <Br>
+
+           <h2>Como utilizar:</h2><Br>
+
+    Os dados devem ser passados no Body da requisição POST, no seguinte modelo:
+    <Br>
+    <Br>
+    <div>
+    {<Br>
+        "numb1":25, <Br>
+        "numb2":40, <Br>
+        "type":"*" <Br>
+    } <Br>
+    </div>
+    <Br>
+    As operações devem ser enviadas no campo _"type"_ da requisição, e são as seguintes:<Br>
+    <b>+  :</b> Adição/Soma<Br>
+    <b>-  :</b> Subtração<Br>
+    <b>*  :</b> Mutiplicação<Br>
+    <b>/  :</b> Divisão<Br>
+    <b>** :</b> Potencia<Br>
+    <b>%  :</b> Módulo/resto da divisão<Br>
+    <Br>

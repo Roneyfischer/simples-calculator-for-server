@@ -30,6 +30,9 @@ class Calculator {
   potencia(numb1, numb2) {
     return calculatorMethods.potencia(numb1, numb2);
   }
+  modulo(numb1, numb2) {
+    return calculatorMethods.modulo(numb1, numb2);
+  }
 }
 
 export default Calculator;
