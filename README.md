@@ -9,9 +9,9 @@ Pressupostos e detalhes técnicos:<Br>
 Embora sem diferente, eu queria utilizar asses, então acabei misturando estes paradigmas. 
 Assim, misturei os conceitos.
 O projeta busca aplicar a imutabilidade, composição e pureza das funções, na medida do possível.
-
-
-
+Em razão da imutabilidade, é aplicado ao código o uso de cópias, para não alterar o input passado na função,
+afim de reduzir os efeitos colaterais, como erros com a nova utilização dos mesmos imputs.
+ 
 Para rodar/executar, use:
 
 1. npm install
