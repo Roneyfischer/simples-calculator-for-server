@@ -1,5 +1,4 @@
-<h2>informações gerais:</h2>
-<Br>
+<h2>Informações gerais:</h2>
 <Br>
 <h3>Intro:</h3>
 <Br>
@@ -9,7 +8,7 @@ Trata-se da uma calculadora simples, construída em Javascript, para rodar em no
 <Br>
 <Br>
 
-<h3>Pressupostos e detalhes técnicos:<h3>
+<h3>Pressupostos e detalhes técnicos:</h3>
 <Br>
 1.O projeto foi criado para eu aprimorar meus conhecimentos.
 <Br> 
@@ -25,7 +24,6 @@ Em razão da imutabilidade, é aplicado ao código o uso de cópias, para não a
 <Br>
 
 <h2>Como rodar/executar:</h2>
-<Br>
 <Br>
 
 1. Rode "npm install";
