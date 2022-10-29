@@ -1,4 +1,4 @@
-**informação geral:**
+<h2>**informação geral:**</h2>
 <Br>
 Trata-se da uma calculadora simples, construída em Javascript, para rodar em nodejs)
 <Br>
